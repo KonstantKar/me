@@ -56,3 +56,16 @@ header {
   font-weight: 200;
   font-size: 0.9rem;
 }
+
+/* ================ Media Querius (meduim) ==================*/
+@media screen and (max-width: 1024px) {
+  .scroll__down {
+    right: -2.3rem;
+  }
+}
+/* ================ Media Querius (small) ==================*/
+@media screen and (max-width: 600px) {
+  .scroll__down {
+    display: none;
+  }
+}
