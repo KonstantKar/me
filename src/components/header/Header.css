@@ -48,16 +48,6 @@ header {
   border-radius: 10rem 10rem 0rem 0rem;
 }
 
-/* ================ Scroll Down ================== */
-.scroll__down {
-  position: absolute;
-  right: 2.3rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 200;
-  font-size: 0.9rem;
-}
-
 /* ================ Media Querius (meduim) ==================*/
 @media screen and (max-width: 1024px) {
   .scroll__down {

@@ -38,7 +38,7 @@ const Expirience = () => {
             </article>
             <article>
               <BsCheck2Circle />
-              <h4>Redux</h4>
+              <h4>Redux(Toolkit)</h4>
             </article>
             <article>
               <BsCheck2Circle />

@@ -7,7 +7,6 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
-import Services from "./components/services/Services";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
       <Portfolio />
       <Testimonials />
       <Contact />

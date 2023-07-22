@@ -3,7 +3,7 @@ import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { MdMiscellaneousServices } from "react-icons/md";
+import { CgWebsite } from "react-icons/cg";
 import { MdOutlineContactPhone } from "react-icons/md";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -31,11 +31,11 @@ const Nav = () => {
         <AiOutlineFundProjectionScreen />
       </a>
       <a
-        href="#services"
-        className={activeNav === "#services" ? "active" : ""}
+        href="#portfolio"
+        className={activeNav === "#portfolio" ? "active" : ""}
         onClick={() => setActiveNav("#services")}
       >
-        <MdMiscellaneousServices />
+        <CgWebsite />
       </a>
       <a
         href="#contacts"
