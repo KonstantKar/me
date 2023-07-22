@@ -133,7 +133,7 @@ section {
 /* На планшетах контейнерный класс будет составлять 86% */
 @media screen and (max-width: 600px) {
   .container {
-    width: var() var(--container-width-sm);
+    width: var(--container-width-sm);
   }
 }
 
