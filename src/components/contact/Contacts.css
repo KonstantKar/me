@@ -1,0 +1,81 @@
+.contacts__container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 30% 55%;
+  gap: 15%;
+}
+.contacts__communication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__card {
+  width: 300px;
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem;
+  transition: var(--transition);
+}
+
+.contacts__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.contacts__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+  transition: var(--transition);
+}
+.contacts__card small:hover {
+  font-size: 1rem;
+  color: var(--color-light);
+}
+.contacts__card a {
+  display: flex;
+  justify-content: center;
+}
+.contacts__icon {
+  color: var(--color-light);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+/* ========================= FORM =====================*/
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  margin-top: 1;
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px solid var(--color-primary-variant);
+  border-radius: 0.5rem;
+  resize: none;
+  background: transparent;
+  margin: 1vw;
+  color: var(--color-white);
+}
+
+/* ================ Media Querius (meduim) ==================*/
+@media screen and (max-width: 1024px) {
+  .contacts__container {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2%;
+  }
+}
+/* ================ Media Querius (small) ==================*/
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 0 auto;
+  }
+}

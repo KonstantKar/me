@@ -64,7 +64,7 @@ const Portfolio = () => {
             </div>
             <h3>Portfolio item</h3>
             <div className="experience__buttons">
-              <a href="#contact" className="btn btn-primary" target="_blank">
+              <a href="#contacts" className="btn btn-primary" target="_blank">
                 GitHub
               </a>
               <a href="" className="btn" target="_blank">
