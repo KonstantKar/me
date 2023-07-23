@@ -41,6 +41,7 @@ const Portfolio = () => {
             </div>
             <h3>Резюме</h3>
             <h5>По секрету:"Вы сейчас его смотрите"</h5>
+            <h5>React,CSS(BEM)</h5>
             <div className="experience__buttons">
               <a
                 href="https://github.com/KonstantKar/me"

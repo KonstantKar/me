@@ -5,6 +5,8 @@ import { SiAboutdotme } from "react-icons/si";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 import { MdOutlineContactPhone } from "react-icons/md";
+import { BiCommentCheck } from "react-icons/bi";
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -33,9 +35,16 @@ const Nav = () => {
       <a
         href="#portfolio"
         className={activeNav === "#portfolio" ? "active" : ""}
-        onClick={() => setActiveNav("#services")}
+        onClick={() => setActiveNav("#portfolio")}
       >
         <CgWebsite />
+      </a>
+      <a
+        href="#testimonials"
+        className={activeNav === "#testimonials" ? "active" : ""}
+        onClick={() => setActiveNav("#testimonials")}
+      >
+        <BiCommentCheck />
       </a>
       <a
         href="#contacts"
